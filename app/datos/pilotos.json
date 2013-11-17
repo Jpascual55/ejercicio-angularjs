@@ -1,0 +1,35 @@
+[
+   {
+      "id" : "pedrosa",
+      "nombre": "Dani Pedrosa",
+      "equipo": {
+         "nombre": "Repsol Honda Team",
+         "id": "honda"
+      },
+      "constructorMoto": "Honda",
+      "mecanica": "Honda RC213V 2013",
+      "foto": "http://www.repsol.es/se/Competicion/motociclismo/imagenes/imagenes/Retratos/2013_danielpedrosa.jpg"
+   },
+   {
+      "id" : "marquez",
+      "nombre": "Marc Márquez",
+      "equipo": {
+         "nombre": "Repsol Honda Team",
+         "id": "honda"
+      },
+      "constructorMoto": "Honda",
+      "mecanica": "Honda RC213V 2013",
+      "foto": "http://www.repsol.es/se/Competicion/motociclismo/imagenes/imagenes/Retratos/2013_marquez.jpg"
+   },
+   {
+      "id" : "lorenzo",
+      "nombre": "Jorge Lorenzo",
+      "equipo": {
+         "nombre": "Yamaha Factory Racing",
+         "id": "yamaha"
+      },
+      "constructorMoto": "Yamaha",
+      "mecanica": "Yamaha YZR M1 2013",
+      "foto": "http://www.repsol.es/se/Competicion/motociclismo/imagenes/imagenes/Retratos/2013_jorgelorenzo.jpg"
+   }
+]

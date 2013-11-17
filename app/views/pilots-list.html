@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+
+    </div>
+    <div class="span10">
+      <!--Body content-->
+
+      <ul class="pilotos">
+        <li ng-repeat="piloto in pilotos | filter:query">
+          <a href="#/pilotos/{{piloto.id}}" class="thumb"><img ng-src="{{piloto.foto}}"></a>
+          <a href="#/pilotos/{{piloto.id}}">{{piloto.nombre}}</a>
+          <a href="#/equipos/{{piloto.equipo.id}}">{{piloto.equipo.nombre}}</a>
+          <p>{{piloto.constructorMoto}}</p>
+          <p>{{piloto.mecanica}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
